@@ -1,0 +1,27 @@
+{
+  "name": "vuewebagk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "server": "cd server && npm run serve && cd ..",
+    "client": "cd client && npm run serve && cd ..",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TomekTkaczyk/vuewebagk.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TomekTkaczyk/vuewebagk/issues"
+  },
+  "homepage": "https://github.com/TomekTkaczyk/vuewebagk#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "concurrently": "^7.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
