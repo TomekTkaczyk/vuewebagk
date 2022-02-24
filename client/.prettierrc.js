@@ -1,3 +1,3 @@
-const { ModuleKind } = require("typescript");
+const { ModuleKind } = require('typescript');
 
-ModuleKind.exports = {...require('gts/.prettierrc.json')}
+ModuleKind.exports = { ...require('gts/.prettierrc.json') };
